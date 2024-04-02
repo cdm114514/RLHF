@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RLHF
+Version: 0.1.0
+Home-page: https://github.com/cdm114514/RLHF
+Author: cdm
+Author-email: 3493665571@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: datasets>=2.8.0
+Requires-Dist: sentencepiece>=0.1.97
+Requires-Dist: protobuf==3.20.3
+Requires-Dist: accelerate>=0.15.0
+Requires-Dist: torch>=1.12.0
+Requires-Dist: transformers!=4.33.2,>=4.31.0
+Requires-Dist: tensorboard
+Requires-Dist: fairscale==0.4.13
